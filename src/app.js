@@ -7,7 +7,7 @@ let tasks = [
 ];
 
 app.get('/', (req, res) => {
-  res.json({ message: "Task Manager API running..." });
+  res.json({ message: "Task Manager API running (Lab1)" });
 });
 
 app.get('/tasks', (req, res) => {
